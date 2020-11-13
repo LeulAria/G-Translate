@@ -1,0 +1,21 @@
+{
+  "name": "G-Translate",
+  "version": "1.0.0",
+  "description": "a simple translation telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "leularia",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "languagedetect": "^2.0.0",
+    "telebot": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
