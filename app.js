@@ -13,7 +13,7 @@ bot.on(["/start", "/hello"], (msg) => {
 })
 
 bot.on('text', async (msg) => {
-    const text = msg.text.split(',').map((s) => s.trim());
+    const text = msg.text.split(':').map((s) => s.trim());
     const textToTrans = text[0];
     const from = text[1] || 'en';
     const to = text[2] || 'am';
